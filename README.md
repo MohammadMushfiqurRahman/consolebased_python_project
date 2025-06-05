@@ -1,9 +1,9 @@
-#Nemo Reef Tours Management System
+**Nemo Reef Tours Management System**
 
-Overview
+**Overview**
 The Nemo Reef Tours Management System is a menu-driven Python application designed to manage tour bookings for Nemo Reef Tours. The program allows users to enter booking details, display booking information, view statistics, and search for specific bookings. Additionally, it supports saving and loading booking data to and from a CSV file.
 
-Features
+**Features**
 Enter Booking: Allows users to enter booking names and the number of passengers.
 
 Display Bookings: Displays all bookings with the number of passengers and total charges.
@@ -16,7 +16,7 @@ Save Bookings: Saves all bookings to a CSV file.
 
 Read Bookings: Reads booking data from a CSV file and appends it to the current bookings.
 
-Menu Options
+**Menu Options**
 Enter Booking: Enter a new booking name and the number of passengers.
 
 Display Bookings: Display all bookings with passenger details and charges.
@@ -31,7 +31,7 @@ Read Bookings: Load bookings from an existing CSV file.
 
 Exit: Exit the program.
 
-How to Run
+**How to Run**
 Clone or download the repository.
 
 Ensure you have Python installed (version 3.x recommended).
@@ -42,7 +42,7 @@ Run the program with the command:
 
 python Nemo_Tours.py
 
-Code Structure
+**Code Structure**
 Constants:
 
 ENTER_BOOKING, DISPLAY_BOOKINGS, DISPLAY_STATISTICS, etc., represent the menu options.
@@ -57,7 +57,7 @@ booking_passengers: List of the number of passengers for each booking.
 
 booking_count: Counter tracking the total number of bookings.
 
-Functions:
+**Functions:**
 
 print_heading(): Prints column headings for displaying booking data.
 
@@ -85,7 +85,7 @@ save_bookings(): Saves all bookings to a CSV file.
 
 read_bookings(): Reads bookings from a CSV file.
 
-Example Output
+**Example Output**
 Menu
 Please select from the following
 
@@ -104,12 +104,12 @@ Read bookings from file
 Exit the application
 Enter choice==>
 
-Display Bookings
+**Display Bookings**
 Booking name Passengers Charge
 Booking1 3 $286.50
 Booking2 5 $477.50
 
-Display Statistics
+**Display Statistics**
 Statistics for Nemo Reef Tours
 Booking1 has the maximum number of 5 passengers
 Booking2 has the minimum number of 3 passengers
@@ -122,8 +122,8 @@ Booking name: Booking1
 Number of passengers: 5
 Total Charge: $477.50
 
-Dependencies
+**Dependencies**
 Python 3.x or higher
 
-License
+**License*
 This project is open-source and available under the MIT License.
